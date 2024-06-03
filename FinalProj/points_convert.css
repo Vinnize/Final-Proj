@@ -1,0 +1,50 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+.btn-convert {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.message {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #4caf50;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 5px;
+  display: inline-block;
+}
+back-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}

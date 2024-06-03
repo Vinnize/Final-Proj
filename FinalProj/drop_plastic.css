@@ -1,0 +1,81 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  text-align: center;
+}
+
+.success-msg,
+.error-msg {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.success-msg {
+  color: #28a745; /* Green color for success message */
+}
+
+.error-msg {
+  color: #dc3545; /* Red color for error message */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="datetime-local"],
+form input[type="submit"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form input[type="datetime-local"]:focus,
+form input[type="submit"]:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+.form-btn {
+  padding: 12px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-btn:hover {
+  background-color: #555;
+}
+/* Add this to your drop_plastic.css file */
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
